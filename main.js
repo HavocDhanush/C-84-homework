@@ -1,13 +1,13 @@
 canvas = document.getElementById('myCanvas');
 ctx = canvas.getContext("2d");
 
-img_width = 600;
-img_height = 200;
+img_width = 200;
+img_height = 100;
 
 var img_image;
 
-img_x = 200;
-img_y = 200;
+img_x = 100;
+img_y = 100;
 
 function add() {
 	img_imgTag = new Image(); //defining a variable with a new image
